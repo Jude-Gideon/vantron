@@ -1,7 +1,16 @@
+const { ActivityType } = require('discord.js');
+
 module.exports = {
   name: "ready",
   once: true,
   async execute(client) {
-    console.log(`Currently logged in as ${client.user.tag} and ready to go!`);
+    console.log(`Ready to go! Logged in as ${client.user.tag}!`);
+    const options = [
+      {
+        type: ActivtyType.Watching,
+        text: "over COMZ INC!",
+        status: "online"
+      }
+   ]
   },
 };
