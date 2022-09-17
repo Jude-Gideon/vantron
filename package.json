@@ -7,7 +7,7 @@
     "start": "nodemon bot.js"
   },
   "author": "VANTRO",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@discordjs/rest": "^1.1.0",
     "chalk": "^4.1.2",
