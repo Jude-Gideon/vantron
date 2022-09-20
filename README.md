@@ -9,6 +9,7 @@
 1.1. Enable 'Message Content Intent' in Discord Developer Portal
 2. Node.js 16.11.0 or newer
 
+
 ## 🚀 Getting Started
 
 ```sh
